@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "coordinateSystem": "bottom-left; x-right; y-up; turns=clockwise quarter turns; normalize after rotation",
+  "shapes": {
+    "single": [[0,0]],
+    "domino": [[0,0],[1,0]],
+    "square": [[0,0],[1,0],[0,1],[1,1]],
+    "bar3": [[0,0],[1,0],[2,0]],
+    "bar4": [[0,0],[1,0],[2,0],[3,0]],
+    "ell4": [[0,0],[0,1],[0,2],[1,0]]
+  },
+  "levels": [
+    {
+      "id": "level_001", "title": "就三个小件", "width": 4, "height": 4, "blocked": [],
+      "cargo": [
+        {"id":"A","shape":"square","name":"办公室零食箱","initialTurns":0},
+        {"id":"B","shape":"domino","name":"老板的折叠凳","initialTurns":0},
+        {"id":"C","shape":"single","name":"下班打卡机","initialTurns":0}
+      ],
+      "reference": {
+        "A":{"anchor":[0,0],"turns":0},
+        "B":{"anchor":[2,0],"turns":0},
+        "C":{"anchor":[2,1],"turns":0}
+      }
+    },
+    {
+      "id": "level_002", "title": "横着不行，转个弯", "width": 3, "height": 4, "blocked": [],
+      "cargo": [
+        {"id":"A","shape":"bar4","name":"老板的新地毯卷","initialTurns":0},
+        {"id":"B","shape":"square","name":"会议室茶点箱","initialTurns":0},
+        {"id":"C","shape":"domino","name":"还没组装的鞋架","initialTurns":0}
+      ],
+      "reference": {
+        "A":{"anchor":[0,0],"turns":1},
+        "B":{"anchor":[1,0],"turns":0},
+        "C":{"anchor":[1,2],"turns":0}
+      }
+    },
+    {
+      "id": "level_003", "title": "真的只剩这一车", "width": 4, "height": 4, "blocked": [],
+      "cargo": [
+        {"id":"A","shape":"square","name":"年会奖品箱","initialTurns":0},
+        {"id":"B","shape":"ell4","name":"老板的转角置物架","initialTurns":0},
+        {"id":"C","shape":"bar3","name":"办公室长灯管","initialTurns":0},
+        {"id":"D","shape":"domino","name":"明天还要用的工具箱","initialTurns":0},
+        {"id":"E","shape":"single","name":"老板说不能忘的盆栽","initialTurns":0}
+      ],
+      "reference": {
+        "A":{"anchor":[0,0],"turns":0},
+        "B":{"anchor":[2,0],"turns":0},
+        "C":{"anchor":[0,3],"turns":0},
+        "D":{"anchor":[0,2],"turns":0},
+        "E":{"anchor":[3,1],"turns":0}
+      },
+      "rearrangementExample": {
+        "before":{"A":{"anchor":[0,0],"turns":0},"B":{"anchor":[2,1],"turns":0}},
+        "after":{"A":{"anchor":[0,0],"turns":0},"B":{"anchor":[2,0],"turns":0}}
+      }
+    }
+  ]
+}
