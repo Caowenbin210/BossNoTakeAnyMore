@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 086e979ac1c24ac40a857b883f625aa9, type: 3}
+  m_Name: WarehouseFeedback
+  m_EditorClassIdentifier: 
+  _pickup: {fileID: 8300000, guid: 58b6c7e94fd6ca04d8dac685a6f64fae, type: 3}
+  _rotate: {fileID: 8300000, guid: f4a3adab186a76c4894213ee917d1487, type: 3}
+  _place: {fileID: 8300000, guid: f8374da365dd5fb4dbcd1db0ee824c43, type: 3}
+  _invalid: {fileID: 8300000, guid: acbc2143a8af25a4baa3d84ead44c8e2, type: 3}
+  _return: {fileID: 8300000, guid: 1b25679844322fa4c94911d705c701a3, type: 3}
+  _complete: {fileID: 8300000, guid: 971e0c277d5ce9e47beabcbb3a15b86e, type: 3}
+  _volume: 0.65
+  _landingDuration: 0.18
+  _bounce: 0.065
+  _placeShake: 2.5
+  _completeShake: 5
+  _shakeDuration: 0.16
+  _completionDelay: 0.85

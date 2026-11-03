@@ -1,0 +1,45 @@
+{
+  "generator": "Tools/generate_sfx.py",
+  "sampleRate": 44100,
+  "channels": 1,
+  "encoding": "PCM16",
+  "source": "procedural; no third-party samples",
+  "clips": [
+    {
+      "file": "cargo_pickup.wav",
+      "seconds": 0.11,
+      "peak": 0.27,
+      "rms": 0.0704
+    },
+    {
+      "file": "cargo_rotate.wav",
+      "seconds": 0.18,
+      "peak": 0.27,
+      "rms": 0.0701
+    },
+    {
+      "file": "cargo_place.wav",
+      "seconds": 0.22,
+      "peak": 0.4,
+      "rms": 0.0837
+    },
+    {
+      "file": "cargo_invalid.wav",
+      "seconds": 0.24,
+      "peak": 0.26,
+      "rms": 0.0701
+    },
+    {
+      "file": "cargo_return.wav",
+      "seconds": 0.14,
+      "peak": 0.25,
+      "rms": 0.0544
+    },
+    {
+      "file": "level_complete.wav",
+      "seconds": 0.95,
+      "peak": 0.38,
+      "rms": 0.094
+    }
+  ]
+}

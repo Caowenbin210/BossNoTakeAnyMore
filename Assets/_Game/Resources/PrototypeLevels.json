@@ -1,0 +1,276 @@
+{
+  "levels": [
+    {
+      "id": "level_001",
+      "title": "就三个小件",
+      "width": 4,
+      "height": 4,
+      "blocked": [],
+      "cargo": [
+        {
+          "id": "A",
+          "shape": "square",
+          "name": "办公室零食箱",
+          "initialTurns": 0,
+          "cells": [
+            {
+              "x": 0,
+              "y": 0
+            },
+            {
+              "x": 1,
+              "y": 0
+            },
+            {
+              "x": 0,
+              "y": 1
+            },
+            {
+              "x": 1,
+              "y": 1
+            }
+          ],
+          "solutionX": 0,
+          "solutionY": 0,
+          "solutionTurns": 0
+        },
+        {
+          "id": "B",
+          "shape": "domino",
+          "name": "老板的折叠凳",
+          "initialTurns": 0,
+          "cells": [
+            {
+              "x": 0,
+              "y": 0
+            },
+            {
+              "x": 1,
+              "y": 0
+            }
+          ],
+          "solutionX": 2,
+          "solutionY": 0,
+          "solutionTurns": 0
+        },
+        {
+          "id": "C",
+          "shape": "single",
+          "name": "下班打卡机",
+          "initialTurns": 0,
+          "cells": [
+            {
+              "x": 0,
+              "y": 0
+            }
+          ],
+          "solutionX": 2,
+          "solutionY": 1,
+          "solutionTurns": 0
+        }
+      ]
+    },
+    {
+      "id": "level_002",
+      "title": "横着不行，转个弯",
+      "width": 3,
+      "height": 4,
+      "blocked": [],
+      "cargo": [
+        {
+          "id": "A",
+          "shape": "bar4",
+          "name": "老板的新地毯卷",
+          "initialTurns": 0,
+          "cells": [
+            {
+              "x": 0,
+              "y": 0
+            },
+            {
+              "x": 1,
+              "y": 0
+            },
+            {
+              "x": 2,
+              "y": 0
+            },
+            {
+              "x": 3,
+              "y": 0
+            }
+          ],
+          "solutionX": 0,
+          "solutionY": 0,
+          "solutionTurns": 1
+        },
+        {
+          "id": "B",
+          "shape": "square",
+          "name": "会议室茶点箱",
+          "initialTurns": 0,
+          "cells": [
+            {
+              "x": 0,
+              "y": 0
+            },
+            {
+              "x": 1,
+              "y": 0
+            },
+            {
+              "x": 0,
+              "y": 1
+            },
+            {
+              "x": 1,
+              "y": 1
+            }
+          ],
+          "solutionX": 1,
+          "solutionY": 0,
+          "solutionTurns": 0
+        },
+        {
+          "id": "C",
+          "shape": "domino",
+          "name": "还没组装的鞋架",
+          "initialTurns": 0,
+          "cells": [
+            {
+              "x": 0,
+              "y": 0
+            },
+            {
+              "x": 1,
+              "y": 0
+            }
+          ],
+          "solutionX": 1,
+          "solutionY": 2,
+          "solutionTurns": 0
+        }
+      ]
+    },
+    {
+      "id": "level_003",
+      "title": "真的只剩这一车",
+      "width": 4,
+      "height": 4,
+      "blocked": [],
+      "cargo": [
+        {
+          "id": "A",
+          "shape": "square",
+          "name": "年会奖品箱",
+          "initialTurns": 0,
+          "cells": [
+            {
+              "x": 0,
+              "y": 0
+            },
+            {
+              "x": 1,
+              "y": 0
+            },
+            {
+              "x": 0,
+              "y": 1
+            },
+            {
+              "x": 1,
+              "y": 1
+            }
+          ],
+          "solutionX": 0,
+          "solutionY": 0,
+          "solutionTurns": 0
+        },
+        {
+          "id": "B",
+          "shape": "ell4",
+          "name": "老板的转角置物架",
+          "initialTurns": 0,
+          "cells": [
+            {
+              "x": 0,
+              "y": 0
+            },
+            {
+              "x": 0,
+              "y": 1
+            },
+            {
+              "x": 0,
+              "y": 2
+            },
+            {
+              "x": 1,
+              "y": 0
+            }
+          ],
+          "solutionX": 2,
+          "solutionY": 0,
+          "solutionTurns": 0
+        },
+        {
+          "id": "C",
+          "shape": "bar3",
+          "name": "办公室长灯管",
+          "initialTurns": 0,
+          "cells": [
+            {
+              "x": 0,
+              "y": 0
+            },
+            {
+              "x": 1,
+              "y": 0
+            },
+            {
+              "x": 2,
+              "y": 0
+            }
+          ],
+          "solutionX": 0,
+          "solutionY": 3,
+          "solutionTurns": 0
+        },
+        {
+          "id": "D",
+          "shape": "domino",
+          "name": "明天还要用的工具箱",
+          "initialTurns": 0,
+          "cells": [
+            {
+              "x": 0,
+              "y": 0
+            },
+            {
+              "x": 1,
+              "y": 0
+            }
+          ],
+          "solutionX": 0,
+          "solutionY": 2,
+          "solutionTurns": 0
+        },
+        {
+          "id": "E",
+          "shape": "single",
+          "name": "老板说不能忘的盆栽",
+          "initialTurns": 0,
+          "cells": [
+            {
+              "x": 0,
+              "y": 0
+            }
+          ],
+          "solutionX": 3,
+          "solutionY": 1,
+          "solutionTurns": 0
+        }
+      ]
+    }
+  ]
+}
